@@ -1,0 +1,74 @@
+* {
+  font-family: sans-serif;
+  width: 100%;
+  margin: 20px auto;
+
+  background-color: rgb(144, 140, 140);
+}
+.container {
+  width: 30%;
+  color: #ffff;
+}
+.logo {
+  max-width: 600px;
+}
+.btn {
+  height: 40px;
+  color: #dfdfdf;
+  background-color: #3eb72b;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.slider {
+  -webkit-appearance: none;
+  background: #dfdfdf;
+}
+
+.container-password {
+  max-width: 480px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.title {
+  color: #ffff;
+  font-size: 28px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.password {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  border: 1px solid #313131;
+  transition: transform 0.5s;
+}
+.password:hover {
+  transform: scale(1.05);
+}
+.hide {
+  display: none;
+}
+
+.tooltip {
+  color: #ffff;
+  position: relative;
+  padding: 6px 8px;
+  background: rgb(15, 15, 15);
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  visibility: hidden;
+}
+
+.container-password:hover .tooltip {
+  visibility: visible;
+}
